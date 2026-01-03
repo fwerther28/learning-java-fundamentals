@@ -22,6 +22,7 @@ public class NegativeNumberChecker {
 		}
 		
 		sc.close(); // Best practice: always close the scanner
+		
 
 	}
 
