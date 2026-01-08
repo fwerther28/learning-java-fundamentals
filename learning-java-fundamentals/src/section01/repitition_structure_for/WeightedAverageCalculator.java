@@ -1,4 +1,4 @@
-package section01.repition_structure_for;
+package section01.repitition_structure_for;
 
 import java.util.Locale;
 import java.util.Scanner;
