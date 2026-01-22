@@ -63,6 +63,8 @@ public class WorkerProgram {
 		System.out.println("Name: " + worker.getName());
 		System.out.println("Department: " + worker.getDepartment().getName());
 		System.out.println("Income for " + monthAndYear + ": " + String.format("%.2f", worker.income(year, month)));
+		
+		sc.close();
 	}
 
 }
