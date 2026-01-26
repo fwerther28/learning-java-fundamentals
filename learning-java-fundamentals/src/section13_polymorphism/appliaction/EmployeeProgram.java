@@ -1,12 +1,12 @@
-package section14_polymorphism.appliaction;
+package section13_polymorphism.appliaction;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import section14_polimorphism.entities.Employee;
-import section14_polimorphism.entities.OutsourcedEmployee;
+import section13_polymorphism.entities.Employee;
+import section13_polymorphism.entities.OutsourcedEmployee;
 
 public class EmployeeProgram {
 

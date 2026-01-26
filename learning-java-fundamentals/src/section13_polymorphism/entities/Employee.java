@@ -1,4 +1,4 @@
-package section14_polimorphism.entities;
+package section13_polymorphism.entities;
 
 public class Employee {
 	
