@@ -1,6 +1,6 @@
 package section13_abstract.entities;
 
-import section14_abstract.entities.TaxPayer;
+import section13_abstract.entities.TaxPayer;
 
 public class Individual extends TaxPayer {
 	

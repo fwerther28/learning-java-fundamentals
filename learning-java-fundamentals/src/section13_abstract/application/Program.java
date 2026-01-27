@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import section14_abstract.entities.Company;
-import section14_abstract.entities.Individual;
-import section14_abstract.entities.TaxPayer;
+import section13_abstract.entities.Company;
+import section13_abstract.entities.Individual;
+import section13_abstract.entities.TaxPayer;
 
 public class Program {
 
