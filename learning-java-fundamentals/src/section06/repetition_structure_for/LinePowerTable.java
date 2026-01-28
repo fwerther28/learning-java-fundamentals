@@ -1,4 +1,4 @@
-package section01.repetition_structure_for;
+package section06.repetition_structure_for;
 
 import java.util.Scanner;
 

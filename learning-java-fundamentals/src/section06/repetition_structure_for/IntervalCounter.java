@@ -1,4 +1,4 @@
-package section01.repetition_structure_for;
+package section06.repetition_structure_for;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class IntervalCounter {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Quantos números você vai digitar?");
+		System.out.print("Quantos números você vai digitar?");
 		int n = sc.nextInt();
 		
 		int in = 0;
@@ -26,7 +26,7 @@ public class IntervalCounter {
 		}
 		
 		System.out.println(in + " in");
-		System.out.println(in + "out");
+		System.out.println(in + " out");
 		
 		sc.close();
 
