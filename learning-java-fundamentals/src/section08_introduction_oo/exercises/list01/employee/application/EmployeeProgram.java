@@ -1,11 +1,11 @@
-package section02.application;
+package section08_introduction_oo.exercises.list01.employee.application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import section02.entities.Employee;
+import section08_introduction_oo.exercises.list01.employee.entities.Employee;
 
 public class EmployeeProgram {
 
