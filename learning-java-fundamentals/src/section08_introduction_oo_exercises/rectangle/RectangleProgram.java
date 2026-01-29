@@ -1,4 +1,4 @@
-package section02.application;
+package section08_introduction_oo_exercises.rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;
