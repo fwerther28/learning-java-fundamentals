@@ -1,9 +1,9 @@
-package section08_introduction_oo_exercises.rectangle.application;
+package section08_introduction_oo_exercises.list01.rectangle.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import section08_introduction_oo_exercises.rectangle.entities.Rectangle;
+import section08_introduction_oo_exercises.list01.rectangle.entities.Rectangle;
 
 public class RectangleProgram {
 
