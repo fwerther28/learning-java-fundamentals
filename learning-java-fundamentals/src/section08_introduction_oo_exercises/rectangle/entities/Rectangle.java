@@ -1,4 +1,4 @@
-package section02.entities;
+package section08_introduction_oo_exercises.rectangle.entities;
 
 public class Rectangle {
 	
