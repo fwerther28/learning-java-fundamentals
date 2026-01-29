@@ -1,28 +1,21 @@
 package section08_introduction_oo.exercises.list01.employee.entities;
 
 public class Employee {
+	
+	public String name;
+	public double grossSalary;
+	public double tax;
 
-	private Integer id;
-	private String name;
-	private Double salary;
-
-	public Employee(Integer id, String name, Double salary) {
-		this.id = id;
-		this.name = name;
-		this.salary = salary;
+	public double netSalary() {
+		return grossSalary - tax;
 	}
-
-	public Integer getId() {
-		return id;
-	}
-
+	
 	public void increaseSalary(double percentage) {
-		salary += salary * percentage / 100.0;
+		grossSalary += grossSalary * (percentage / 100.0);
 	}
-
-	@Override
+	
 	public String toString() {
-		return id + ", " + name + ", " + String.format("%.2f", salary);
+		return name + ", $ " + String.format("%.2f", netSalary());
 	}
 	
 }
