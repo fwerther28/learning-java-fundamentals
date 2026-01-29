@@ -1,4 +1,4 @@
-package section02.entities;
+package section08_introduction_oo.exercises.list01.student.entities;
 
 public class Student {
 	

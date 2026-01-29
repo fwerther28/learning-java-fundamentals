@@ -1,10 +1,9 @@
-package section02.application;
+package section08_introduction_oo.exercises.list01.student.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import section02.entities.Student;
-
+import section08_introduction_oo.exercises.list01.student.entities.Student;
 
 public class StudentProgram {
 
@@ -19,6 +18,7 @@ public class StudentProgram {
 		student.grade2 = sc.nextDouble();
 		student.grade3 = sc.nextDouble();
 		
+		System.out.println();
 		System.out.printf("FINAL GRADE: %.2f%n", student.finalGrade());
 		
 		if (student.finalGrade() < 60.0) {
