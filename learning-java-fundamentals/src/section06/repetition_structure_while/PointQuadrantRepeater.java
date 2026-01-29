@@ -1,4 +1,4 @@
-package section01.repetition_structure_while;
+package section06.repetition_structure_while;
 
 import java.util.Scanner;
 
