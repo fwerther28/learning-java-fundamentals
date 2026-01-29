@@ -1,9 +1,9 @@
-package section08_introduction_oo.exercises.list01.employee.application;
+package section08_introduction_oo_exercises.list01.employee.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import section08_introduction_oo.exercises.list01.employee.entities.Employee;
+import section08_introduction_oo_exercises.list01.employee.entities.Employee;
 
 public class EmployeeProgram {
 

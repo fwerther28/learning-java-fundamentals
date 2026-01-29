@@ -1,9 +1,9 @@
-package section08_introduction_oo.exercises.list01.student.application;
+package section08_introduction_oo_exercises.list01.student.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import section08_introduction_oo.exercises.list01.student.entities.Student;
+import section08_introduction_oo_exercises.list01.student.entities.Student;
 
 public class StudentProgram {
 

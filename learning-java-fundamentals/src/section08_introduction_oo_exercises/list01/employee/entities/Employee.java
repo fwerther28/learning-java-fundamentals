@@ -1,4 +1,4 @@
-package section08_introduction_oo.exercises.list01.employee.entities;
+package section08_introduction_oo_exercises.list01.employee.entities;
 
 public class Employee {
 	
