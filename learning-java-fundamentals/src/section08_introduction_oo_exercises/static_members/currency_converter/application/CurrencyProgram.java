@@ -1,8 +1,9 @@
-package section02.application;
+package section08_introduction_oo_exercises.static_members.currency_converter.application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import section02.entities.CurrencyConverter;
+
+import section08_introduction_oo_exercises.static_members.currency_converter.entities.CurrencyConverter;
 
 public class CurrencyProgram {
 
@@ -10,10 +11,10 @@ public class CurrencyProgram {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Qual é o preço do dólar? ");
+		System.out.print("Qual é o preço do dólar? ");
 		double dollarPrice = sc.nextDouble();
 		
-		System.out.println("Quantos dólares serão comprados? ");
+		System.out.print("Quantos dólares serão comprados? ");
 		double amount = sc.nextDouble();
 		
 		// Calling the static method form the class
