@@ -7,6 +7,7 @@ import section02.entities.Person;
 
 public class HeightsProgram {
 
+	// Program to read data and calculate statistics (average height and percentage of minors)
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
