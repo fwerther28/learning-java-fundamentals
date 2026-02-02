@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class HeightsProgram {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Quantas pessoas serão digitadas? ");
+		System.out.print("Quantas pessoas serão digitadas? ");
 		int n = sc.nextInt();
 		
 		System.out.println();
@@ -22,12 +22,12 @@ public class HeightsProgram {
 		// Data entry
 		for (int i = 0; i < n; i++) {
 			System.out.println("Dados da " + (i + 1) + "a pessoa");
-			System.out.println("Nome: ");
+			System.out.print("Nome: ");
 			sc.nextLine(); // Buffer cleaning
 			String name = sc.nextLine();
-			System.out.println("Idade: "); 
+			System.out.print("Idade: "); 
 			int age = sc.nextInt();
-			System.out.println("Altura: ");
+			System.out.print("Altura: ");
 			double height = sc.nextDouble();
 			
 			// Instantiating the objects in the array position
