@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Scanner;
 
@@ -36,7 +36,6 @@ public class EvenNumbersProgram {
 		System.out.println();
 		System.out.println();
 		System.out.println("Quantidade de pares = " + evenCount);
-		
 		
 		sc.close();		
 	}
