@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class NegativesProgram {
 		Scanner sc = new Scanner(System.in);
 		
 		// Input: Number of elements (N)
-		System.out.println("Quantos números você irá digitar? ");
+		System.out.print("Quantos números você irá digitar? ");
 		int n = sc.nextInt();
 		
 		// Vector declaration 
@@ -16,7 +16,7 @@ public class NegativesProgram {
 		
 		// Loop to read and store numbers in the vector
 		for (int i = 0; i < n; i++) {
-			System.out.println("Digite um número: ");
+			System.out.print("Digite um número: ");
 			numbers[i] = sc.nextInt();
 		}
 		

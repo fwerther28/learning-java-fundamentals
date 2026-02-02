@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class SumVectorProgram {
 		Scanner sc = new Scanner(System.in);
 		
 		// Input: Quantity of numbers
-		System.out.println("Quantos números vai digitar? ");
+		System.out.print("Quantos números vai digitar? ");
 		int n = sc.nextInt();
 		
 		// Vector declaration 
@@ -18,7 +18,7 @@ public class SumVectorProgram {
 		
 		// Reading numbers and storing in the vector
 		for (int i = 0; i < n; i++) {
-			System.out.println("Digite um número: ");
+			System.out.print("Digite um número: ");
 			numbers[i] = sc.nextDouble();
 		}
 			
