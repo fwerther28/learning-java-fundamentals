@@ -1,9 +1,9 @@
-package section02.application;
+package section09_constructors_overload_encapsulation.exercises.banking.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import section02.entities.Account;
+import section09_constructors_overload_encapsulation.exercises.banking.entities.Account;
 
 public class BankProgram {
 
@@ -12,16 +12,16 @@ public class BankProgram {
 		Scanner sc = new Scanner(System.in);
 		Account account;
 		
-		System.out.println("Entre com o número da conta: ");
+		System.out.print("Enter account number: ");
 		int number = sc.nextInt();
-		System.out.println("Entre com o titular da conta: ");
+		System.out.print("Entre account holder: ");
 		sc.nextLine(); // Buffer cleaning
 		String holder = sc.nextLine();
-		System.out.println("Haverá depósito inicial (s/n)? ");
+		System.out.print("Is there an initial deposit (y/n)? ");
 		char response = sc.next().charAt(0);
 		
-		if (response == 's') {
-			System.out.println("Entre com o valor do depósito inicial: ");
+		if (response == 'y') {
+			System.out.print("Enter initial deposit value: ");
 			double initialDeposit = sc.nextDouble();
 			account = new Account(number, holder, initialDeposit);
 		} else {
@@ -29,21 +29,21 @@ public class BankProgram {
 		}
 		
 		System.out.println();
-		System.out.println("Dados da conta: ");
+		System.out.println("Account data: ");
 		System.out.println(account);
 		
 		System.out.println();
-		System.out.println("Entre com o valor do depósito: ");
+		System.out.print("Enter a deposit value: ");
 		double depositValue = sc.nextDouble();
 		account.deposit(depositValue);
-		System.out.println("Dados da conta atualizações:");
+		System.out.println("Updated account data:");
 		System.out.println(account);
 		
 		System.out.println();
-		System.out.println("Entre com o valor para saque: ");
+		System.out.print("Enter a withdraw value: ");
 		double withdrawValue = sc.nextDouble();
 		account.withdraw(withdrawValue);
-		System.out.println("Dados da conta atualizados:");
+		System.out.println("Updated account data:");
 		System.out.println(account);
 		
 		sc.close();	

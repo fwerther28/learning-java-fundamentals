@@ -1,4 +1,4 @@
-package section02.entities;
+package section09_constructors_overload_encapsulation.exercises.banking.entities;
 
 public class Account {
 	
@@ -49,9 +49,9 @@ public class Account {
 	public String toString() {
 		return "Conta "
 				+ number
-				+ ", Titular: "
+				+ ", Holder: "
 				+ holder
-				+ ", Saldo: $ "
+				+ ", Balance: $ "
 				+ String.format("%.2f", balance);
 	}
 	
