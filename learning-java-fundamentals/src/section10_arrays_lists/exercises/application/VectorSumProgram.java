@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Scanner;
 
