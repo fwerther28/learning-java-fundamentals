@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Scanner;
 
@@ -35,7 +35,7 @@ public class OlderPersonProgram {
 			}
 		}
 
-		System.out.println("Pessoa mais velha: " + names[oldestPosition]);
+		System.out.println("PESSOA MAIS VELHA: " + names[oldestPosition]);
 
 		sc.close();
 	}
