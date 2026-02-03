@@ -8,7 +8,7 @@ public class OlderPersonProgram {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Quantas pessoas você irá digitar? ");
+		System.out.print("Quantas pessoas voce vai digitar? ");
 		int n = sc.nextInt();
 
 		// Parallel vectors
