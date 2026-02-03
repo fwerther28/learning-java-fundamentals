@@ -1,4 +1,4 @@
-package section02.entities;
+package section10_arrays_lists.exercises.entities;
 
 public class Person {
 	
