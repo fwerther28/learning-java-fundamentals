@@ -1,8 +1,8 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Scanner;
 
-import section02.entities.Rent;
+import section10_arrays_lists.exercises.entities.Rent;
 
 public class PensionatoProgram {
 	
@@ -12,12 +12,12 @@ public class PensionatoProgram {
         // The boarding house has exactly 10 rooms (0 to 9)
         Rent[] rooms = new Rent[10];
         
-        System.out.println("How many rooms will be rented? ");
+        System.out.print("How many rooms will be rented? ");
         int n = sc.nextInt();
         
         for (int i = 1; i <= n; i++) {
         	System.out.println();
-        	System.out.println("Aluguel #" + i + ":");
+        	System.out.println("Rent #" + i + ":");
         	System.out.print("Name: ");
         	sc.nextLine();
         	String name = sc.nextLine();

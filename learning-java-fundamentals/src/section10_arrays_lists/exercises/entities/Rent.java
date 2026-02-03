@@ -1,4 +1,4 @@
-package section02.entities;
+package section10_arrays_lists.exercises.entities;
 
 public class Rent {
 	
@@ -8,8 +8,6 @@ public class Rent {
 	public Rent(String name, String email) {
 		this.name = name;
 		this.email = email;
-		
-		
 	}
 
 	public String getName() {
