@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -9,16 +9,16 @@ public class PeopleDataProgram {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Quantos alunos serão digitados? ");
+		System.out.print("Quantas pessoas serao digitadas? ");
 		int n = sc.nextInt();
 		
 		double[] heights = new double[n];
 		char[] genders = new char[n];
 		
 		for (int i = 0; i < n; i++) {
-			System.out.println("Altura da " + (i + 1) + "a pessoa: ");
+			System.out.print("Altura da " + (i + 1) + "a pessoa: ");
 			heights[i] = sc.nextDouble(); 
-			System.out.println("Gênero da " + (i + 1) + "a pessoa: ");
+			System.out.print("Gênero da " + (i + 1) + "a pessoa: ");
 			genders[i] = sc.next().toUpperCase().charAt(0);
 		}
 		
