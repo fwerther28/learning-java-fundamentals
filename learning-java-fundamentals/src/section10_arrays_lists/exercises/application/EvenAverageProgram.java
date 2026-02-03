@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -32,10 +32,10 @@ public class EvenAverageProgram {
 
 		// Conditional output
 		if (countEvens == 0) {
-			System.out.println("Nenhum número par");
+			System.out.println("NENHUM NUMERO PAR");
 		} else {
 			double average = (double) sumEvens / countEvens;
-			System.out.printf("Media dos pares = %.1f%n", average);
+			System.out.printf("MEDIA DOS PARES = %.1f%n", average);
 		}
 		
 		sc.close();
