@@ -1,4 +1,4 @@
-package section02.application;
+package section10_arrays_lists.exercises.application;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class ApprovedProgram {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Quantos alunos serão digitados? ");
+		System.out.print("Quantos alunos serão digitados? ");
 		int n = sc.nextInt();
 
 		// Parallel vectors for names and grades
