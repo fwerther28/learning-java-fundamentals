@@ -1,11 +1,11 @@
-package section03.entities;
+package section12_enumeration_and_composition.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import section03.entities.enums.OrderStatus;
+import section12_enumeration_and_composition.entities.enums.OrderStatus;
 
 public class Order {
 	

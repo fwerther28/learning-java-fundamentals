@@ -1,4 +1,4 @@
-package section03.entities;
+package section12_enumeration_and_composition.entities;
 
 public class Product {
 	

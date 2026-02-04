@@ -1,4 +1,4 @@
-package section03.application;
+package section12_enumeration_and_composition.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,11 +6,11 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import section03.entities.Client;
-import section03.entities.Order;
-import section03.entities.OrderItem;
-import section03.entities.Product;
-import section03.entities.enums.OrderStatus;
+import section12_enumeration_and_composition.entities.Client;
+import section12_enumeration_and_composition.entities.Order;
+import section12_enumeration_and_composition.entities.OrderItem;
+import section12_enumeration_and_composition.entities.Product;
+import section12_enumeration_and_composition.entities.enums.OrderStatus;
 
 public class OrderProgram {
 

@@ -1,4 +1,4 @@
-package section03.entities.enums;
+package section12_enumeration_and_composition.entities.enums;
 
 public enum OrderStatus {
 	
