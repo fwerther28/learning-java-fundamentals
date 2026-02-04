@@ -1,4 +1,4 @@
-package section13_polymorphism.appliaction;
+package section13_polymorphism.application;
 
 import java.util.ArrayList;
 import java.util.List;
