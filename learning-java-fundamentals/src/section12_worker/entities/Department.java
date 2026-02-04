@@ -1,4 +1,4 @@
-package section04.entities;
+package section12_worker.entities;
 
 public class Department {
 	

@@ -1,4 +1,4 @@
-package section04.application;
+package section12_worker.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,10 +6,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import section04.entities.Department;
-import section04.entities.HourContract;
-import section04.entities.Worker;
-import section04.entities.enums.WorkerLevel;
+import section12_worker.entities.Department;
+import section12_worker.entities.HourContract;
+import section12_worker.entities.Worker;
+import section12_worker.entities.enums.WorkerLevel;
 
 public class WorkerProgram {
 
