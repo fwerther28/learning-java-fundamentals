@@ -3,7 +3,7 @@ package section10_arrays_lists.exercises.application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import section02.entities.Person;
+import section10_arrays_lists.exercises.entities.Person;
 
 public class HeightsProgram {
 
