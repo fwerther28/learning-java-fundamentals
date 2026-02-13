@@ -30,7 +30,7 @@ public class Program {
 		
 		Contract contract = new Contract(number, date, totalValue);
 		
-		System.out.println("Enter number of installments: ");
+		System.out.print("Enter number of installments: ");
 		int n = sc.nextInt();
 		
 		ContractService contractService = new ContractService(new PaypalService());
