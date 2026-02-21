@@ -1,4 +1,4 @@
-package theory_concepts.multiple_inheritance.devices;
+package theory_concepts.devices;
 
 public class ComboDevice extends Device implements Scanner, Printer {
 

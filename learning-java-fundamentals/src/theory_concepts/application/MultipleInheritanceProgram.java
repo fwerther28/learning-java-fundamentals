@@ -1,10 +1,10 @@
-package theory_concepts.multiple_inheritance.application;
+package theory_concepts.application;
 
-import theory_concepts.multiple_inheritance.devices.ComboDevice;
-import theory_concepts.multiple_inheritance.devices.ConcretePrinter;
-import theory_concepts.multiple_inheritance.devices.ConcreteScanner;
+import theory_concepts.devices.ComboDevice;
+import theory_concepts.devices.ConcretePrinter;
+import theory_concepts.devices.ConcreteScanner;
 
-public class Program {
+public class MultipleInheritanceProgram {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-package theory_concepts.multiple_inheritance.devices;
+package theory_concepts.devices;
 
 public abstract class Device {
 	
