@@ -1,0 +1,13 @@
+package theory_concepts.lambda.consumer.util;
+
+import java.util.function.Consumer;
+
+import theory_concepts.lambda.consumer.entities.Product;
+
+public class PriceUpdate implements Consumer<Product> {
+
+	@Override
+	public void accept(Product p) {
+		p.setPrice(p.getPrice() * 1.1);
+	}
+}
