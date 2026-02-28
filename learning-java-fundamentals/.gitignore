@@ -1,0 +1,17 @@
+# Ignore Java compiled files
+*.class
+bin/
+
+# Ignore Eclipse/STS configuration files
+.settings/
+.metadata/
+.classpath
+.project
+
+# Ignore temporary and log files 
+*.log
+.DS_Store
+Thumbs.db
+
+# Future: Ignore sensitive data (JDBC)
+db.properties
