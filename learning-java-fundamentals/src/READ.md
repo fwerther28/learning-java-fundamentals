@@ -2,9 +2,9 @@
 
 This repository documents my journey through the **"Complete Java Course - Object-Oriented Programming"** by Dr. Nelio Alves. It focuses on solidifying my understanding of Java logic, Object-Oriented principles, and clean code practices.
 
-## 🚀 Current Module: Git, Github & Data Persistence (JDBC)
+## 🚀 Current Module: Data Persistence (JDBC)
 
-I am currently mastering version control with Git and learning how to connect Java application to SQL databases using JDBC
+I am currently learning how to connect Java application to SQL databases using JDBC and the DAO Pattern.
 
 ### Implemented Exercises (based on URI Online Judge)
 * **Exercise 01:** Logic to identify if a number is negative or not.
@@ -20,16 +20,16 @@ I am currently mastering version control with Git and learning how to connect Ja
 * **Java 21**
 * **Spring Tool Suite 4 (STS4)**
 * **Git & GitHub**
+* **MySQL / JDBC
 * **Maven**
 
 ## 📈 Learning Path
 - [x] Basic Syntax and Logic
-- [x] Conditional Structures
-- [x] Repetition Structures (Next Step)
+- [x] Conditional & Repetition Structures
 - [x] Object-Oriented Programming (Core Concepts)
-- [ ] Advanced POO & Design Patterns (Applied in JDBC/Spring)
-- [ ] Git & Github (In Progress)
-- [ ] Data Persistence (JDBC - Next Step)
+- [x] Git & Github (Using STS Integration)
+- [ ] Data Persistence (JDBC - In Progress)
+- [ ] Web Services with Spring Boot (Next Step)
 
 ---
 📫 **Connect with me:**
