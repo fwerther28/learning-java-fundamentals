@@ -31,6 +31,3 @@ I am currently learning how to connect Java applications to SQL databases using 
 ---
 📫 **Connect with me:**
 [LinkedIn](https://www.linkedin.com/in/francisco-wherther-492004296/)
-
-
-
