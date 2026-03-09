@@ -1,4 +1,4 @@
-package theory_concepts.jdbc2.application;
+package theory_concepts.jdbc.application.select;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
