@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 import theory_concepts.jdbc.db.DB;
 
-public class Program {
+public class JDBCSelectApplication {
 
 	public static void main(String[] args) {
 		
