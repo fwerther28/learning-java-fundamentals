@@ -1,0 +1,47 @@
+package theory_concepts.jdbc.application.transaction;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import theory_concepts.jdbc.db.DB;
+import theory_concepts.jdbc.db.DbException;
+
+public class JDBCTransactionApplication {
+
+	public static void main(String[] args) {
+		
+		Connection conn = null;
+		Statement st = null;
+		try {
+			conn = DB.getConnection();
+			
+			conn.setAutoCommit(false);
+			
+			st = conn.createStatement();
+			
+			int rows1 = st.executeUpdate("UPDATE seller SET BaseSalary = 2090 WHERE DepartmentID = 1");
+			
+			int rows2 = st.executeUpdate("UPDATE seller SET BaseSalary = 3090 WHERE DepartmentID = 2");
+			
+			conn.commit();
+			
+			System.out.println("rows1 " + rows1);
+			System.out.println("rows2 " + rows2);
+			
+		} catch (SQLException e) {
+			try {
+				conn.rollback();
+				throw new DbException("Transaction rolled back! Caused by: " + e.getMessage());
+			} catch (SQLException e1) {
+				throw new DbException("Error trying to rollback! Caused by: " + e1.getMessage());
+			}
+		}
+		finally {
+			DB.closeStatement(st);
+			DB.closeConnection();
+		}
+		
+	}
+
+}
