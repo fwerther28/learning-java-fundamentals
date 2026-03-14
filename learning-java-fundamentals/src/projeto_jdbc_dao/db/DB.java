@@ -9,8 +9,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
-import theory_concepts.jdbc.db.DbException;
-
 public class DB {
 	
 private static Connection conn = null;
