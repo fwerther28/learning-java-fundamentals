@@ -2,9 +2,15 @@
 
 This repository documents my journey through the **"Complete Java Course - Object-Oriented Programming"** by Dr. Nelio Alves. It focuses on solidifying my understanding of Java logic, Object-Oriented principles, and clean code practices.
 
-## 🚀 Current Module: Data Persistence (JDBC)
+## 🚀 Current Module: Data Persistence (JDBC & DAO Pattern)
 
-I am currently learning how to connect Java applications to SQL databases using JDBC and the DAO Pattern.
+I have completed the fundamental JDBC operations and am currently refactoring the persistence layer using the **DAO (Data Access Object) Pattern** to improve decoupling and maintainability.
+
+### Key Concepts Applied 
+* **JDBC Fundamentals:** Managing connections (`DriverManager`), executing queries (`Statement`, `PreparedStatement`), and handling results (`ResultSet`).
+* **Transaction Management:** Ensuring data integrity with manual `commit` and `rollback` (ACID properties).
+* **DAO Pattern:** Implemeting interfaces and factories to abstract database operations, separting the persistence layer from business logic (Ongoing - Lesson 250+).
+* **Exception Handling:** Customizing `DbException` and `DbIntegrityException` for robust error management and database safety.
 
 ### Implemented Exercises & Projects:
 * **Functional Programming & Lambda:** Practice with streams, predicates, and functional interfaces (Section 18).
@@ -25,7 +31,8 @@ I am currently learning how to connect Java applications to SQL databases using 
 - [x] Object-Oriented Programming (Core & Advanced)
 - [x] Functional Programming & Lambda Expressions
 - [x] Git & GitHub (Using STS Integration)
-- [ ] Data Persistence (JDBC - In Progress 🔄)
+- [x] JDBC Fundamentals & Transactions 
+- [ ] Data Persistence (DAO Pattern Implementation - In Progress 🔄)
 - [ ] Web Services with Spring Boot (Next Step)
 
 ---
