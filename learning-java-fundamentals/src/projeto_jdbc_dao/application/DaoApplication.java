@@ -1,4 +1,4 @@
-package projeto_jdvc_dao.application;
+package projeto_jdbc_dao.application;
 
 import projeto_jdbc_dao.model.entities.Department;
 
