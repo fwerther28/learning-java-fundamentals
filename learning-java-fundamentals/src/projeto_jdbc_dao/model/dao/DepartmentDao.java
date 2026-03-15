@@ -1,0 +1,14 @@
+package projeto_jdbc_dao.model.dao;
+
+import java.util.List;
+
+import projeto_jdbc_dao.model.entities.Department;
+
+public interface DepartmentDao {
+	
+	void insert (Department obj);
+	void update (Department obj);
+	void deleteById (Department obj);
+	Department findById(Integer id);
+	List<Department> findAll();
+}
