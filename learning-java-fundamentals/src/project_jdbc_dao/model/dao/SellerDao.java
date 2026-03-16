@@ -1,9 +1,9 @@
-package projeto_jdbc_dao.model.dao;
+package project_jdbc_dao.model.dao;
 
 import java.util.List;
 
-import projeto_jdbc_dao.model.entities.Department;
-import projeto_jdbc_dao.model.entities.Seller;
+import project_jdbc_dao.model.entities.Department;
+import project_jdbc_dao.model.entities.Seller;
 
 public interface SellerDao {
 	

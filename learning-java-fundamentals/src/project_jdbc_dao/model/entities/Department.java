@@ -1,4 +1,4 @@
-package projeto_jdbc_dao.model.entities;
+package project_jdbc_dao.model.entities;
 
 import java.io.Serializable;
 import java.util.Objects;

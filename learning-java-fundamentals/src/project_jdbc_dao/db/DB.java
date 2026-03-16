@@ -1,4 +1,4 @@
-package projeto_jdbc_dao.db;
+package project_jdbc_dao.db;
 
 import java.io.FileInputStream;
 import java.io.IOException;

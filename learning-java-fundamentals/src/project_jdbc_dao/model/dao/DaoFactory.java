@@ -1,6 +1,6 @@
-package projeto_jdbc_dao.model.dao;
+package project_jdbc_dao.model.dao;
 
-import projeto_jdbc_dao.model.dao.imp.SellerDaoJDBC;
+import project_jdbc_dao.model.dao.imp.SellerDaoJDBC;
 
 public class DaoFactory {
 	

@@ -1,11 +1,11 @@
-package projeto_jdbc_dao.application;
+package project_jdbc_dao.application;
 
 import java.util.Date;
 
-import projeto_jdbc_dao.model.dao.DaoFactory;
-import projeto_jdbc_dao.model.dao.SellerDao;
-import projeto_jdbc_dao.model.entities.Department;
-import projeto_jdbc_dao.model.entities.Seller;
+import project_jdbc_dao.model.dao.DaoFactory;
+import project_jdbc_dao.model.dao.SellerDao;
+import project_jdbc_dao.model.entities.Department;
+import project_jdbc_dao.model.entities.Seller;
 
 public class DaoApplication {
 

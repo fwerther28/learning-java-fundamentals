@@ -1,8 +1,8 @@
-package projeto_jdbc_dao.model.dao;
+package project_jdbc_dao.model.dao;
 
 import java.util.List;
 
-import projeto_jdbc_dao.model.entities.Department;
+import project_jdbc_dao.model.entities.Department;
 
 public interface DepartmentDao {
 	
