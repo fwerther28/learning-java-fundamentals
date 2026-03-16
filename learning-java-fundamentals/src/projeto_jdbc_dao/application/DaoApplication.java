@@ -2,6 +2,8 @@ package projeto_jdbc_dao.application;
 
 import java.util.Date;
 
+import projeto_jdbc_dao.model.dao.DaoFactory;
+import projeto_jdbc_dao.model.dao.SellerDao;
 import projeto_jdbc_dao.model.entities.Department;
 import projeto_jdbc_dao.model.entities.Seller;
 
@@ -13,8 +15,8 @@ public class DaoApplication {
 		
 		Seller seller = new Seller(21, "Bob", "bob@gmail.com", new Date(), 3000.0, obj);
 		
+		SellerDao sellerDao = DaoFactory.createSellerDao();
+		
 		System.out.println(seller);
-
 	}
-
 }
