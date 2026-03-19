@@ -23,5 +23,11 @@ import project_jdbc_dao.model.entities.Seller;
 			for (Seller obj : list) {
 				System.out.println(obj);
 			}
+			
+			System.out.println("\n=== TEST 3: seller findAll ===");
+			list = sellerDao.findAll();
+			for (Seller obj : list) {
+				System.out.println(obj);
+			}
 		}
 	}
