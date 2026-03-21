@@ -1,8 +1,9 @@
 package project_jdbc_dao.model.dao;
 
+import project_jdbc_dao.db.DB;
 import project_jdbc_dao.model.dao.imp.DepartmentDaoJDBC;
 import project_jdbc_dao.model.dao.imp.SellerDaoJDBC;
-import theory_concepts.jdbc.db.DB;
+
 
 public class DaoFactory {
 	
