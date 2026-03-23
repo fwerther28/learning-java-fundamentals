@@ -1,40 +1,33 @@
 # Learning Java Fundamentals ☕
 
-This repository documents my journey through the **"Complete Java Course - Object-Oriented Programming"** by Dr. Nelio Alves. It focuses on solidifying my understanding of Java logic, Object-Oriented principles, and clean code practices.
+This repository documents my journey through the "Complete Java Course - Object-Oriented Programming" by Dr. Nelio Alves. It focuses on solidifying my understanding of Java logic, Object-Oriented principles, and clean code practices.
 
-## 🚀 Current Module: Data Persistence (JDBC & DAO Pattern)
+🚀 **Current Module: ORM with JPA & Hibernate**
 
-I have completed the fundamental JDBC operations and am currently refactoring the persistence layer using the **DAO (Data Access Object) Pattern** to improve decoupling and maintainability.
+I am currently transitioning from manual JDBC/DAO to **Object-Relational Mapping (ORM)** using **JPA (Jakarta Persistence)** and **Hibernate**. This module focuses on simplifying data persistence by mapping Java objects directly to database tables.
 
-### Key Concepts Applied 
-* **JDBC Fundamentals:** Managing connections (`DriverManager`), executing queries (`Statement`, `PreparedStatement`), and handling results (`ResultSet`).
-* **Transaction Management:** Ensuring data integrity with manual `commit` and `rollback` (ACID properties).
-* **DAO Pattern:** Implemeting interfaces and factories to abstract database operations, separting the persistence layer from business logic (Ongoing - Lesson 250+).
-* **Exception Handling:** Customizing `DbException` and `DbIntegrityException` for robust error management and database safety.
+### Key Concepts Applied
+* **JPA & Hibernate:** Configuring the `persistence.xml` and managing the entity lifecycle with `EntityManager`.
+* **Object-Relational Mapping (ORM):** Using annotations like `@Entity`, `@Id`, and `@GeneratedValue` to bridge the gap between OOP and Relational Databases.
+* **Jakarta Persistence:** Implementing modern persistence standards (Jakarta EE) compatible with Java 24.
+* **JDBC & DAO Pattern:** Managed connections, executed queries, and implemented interfaces to abstract database operations.
 
 ### Implemented Exercises & Projects:
-* **Functional Programming & Lambda:** Practice with streams, predicates, and functional interfaces (Section 18).
+* **Functional Programming & Lambda:** Practice with streams, predicates, and functional interfaces.
 * **Object-Oriented Logic:** Implementation of complex business rules, inheritance, and polymorphism.
-* **The Lisarb Problem:** Complex business logic for calculating Income Tax based on tiered salary brackets.
-* **URI Online Judge:** Various logic exercises covering conditionals, loops, and math.
+* **The Lisarb Problem:** Complex business logic for calculating Income Tax.
 
-## 🛠 Tech Stack & Tools
-* **Java 21**
-* **Spring Tool Suite 4 (STS4)**
-* **Git & GitHub**
-* **MySQL / JDBC**
-* **Maven**
+🛠 **Tech Stack & Tools**
+* Java 24
+* Spring Tool Suite 4 (STS4)
+* MySQL / JDBC / Hibernate (JPA)
+* Maven
 
-## 📈 Learning Path
+📈 **Learning Path**
 - [x] Basic Syntax and Logic
-- [x] Conditional & Repetition Structures
-- [x] Object-Oriented Programming (Core & Advanced)
+- [x] Object-Oriented Programming
 - [x] Functional Programming & Lambda Expressions
-- [x] Git & GitHub (Using STS Integration)
-- [x] JDBC Fundamentals & Transactions 
-- [ ] Data Persistence (DAO Pattern Implementation - In Progress 🔄)
+- [x] JDBC Fundamentals & Transactions
+- [x] Data Persistence (DAO Pattern)
+- [ ] **ORM with JPA & Hibernate (In Progress 🔄)**
 - [ ] Web Services with Spring Boot (Next Step)
-
----
-📫 **Connect with me:**
-[LinkedIn](https://www.linkedin.com/in/francisco-wherther-492004296/)
