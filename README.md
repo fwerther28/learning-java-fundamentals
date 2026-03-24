@@ -1,33 +1,40 @@
 # Learning Java Fundamentals ☕
 
-This repository documents my journey through the "Complete Java Course - Object-Oriented Programming" by Dr. Nelio Alves. It focuses on solidifying my understanding of Java logic, Object-Oriented principles, and clean code practices.
+This repository documents my journey through the "Complete Java Course - Object-Oriented Programming" by Dr. Nelio Alves. It focuses on solidifying my understanding of Java logic, Object-Oriented principles, and modern enterprise development practices.
 
-🚀 **Current Module: ORM with JPA & Hibernate**
+## 🚀 Current Module: Web Services with Spring Boot & JPA
+I have successfully completed the **ORM with JPA & Hibernate** core module and am now transitioning to building RESTful Web Services using the **Spring Boot** ecosystem.
 
-I am currently transitioning from manual JDBC/DAO to **Object-Relational Mapping (ORM)** using **JPA (Jakarta Persistence)** and **Hibernate**. This module focuses on simplifying data persistence by mapping Java objects directly to database tables.
+## 🧠 Key Concepts & Evolution
 
-### Key Concepts Applied
-* **JPA & Hibernate:** Configuring the `persistence.xml` and managing the entity lifecycle with `EntityManager`.
-* **Object-Relational Mapping (ORM):** Using annotations like `@Entity`, `@Id`, and `@GeneratedValue` to bridge the gap between OOP and Relational Databases.
-* **Jakarta Persistence:** Implementing modern persistence standards (Jakarta EE) compatible with Java 24.
-* **JDBC & DAO Pattern:** Managed connections, executed queries, and implemented interfaces to abstract database operations.
+### 1. ORM with JPA & Hibernate (Deep Dive)
+* **Jakarta Persistence (JPA 3.0):** Mastered the entity lifecycle and managed persistence units via `persistence.xml`.
+* **Hibernate 6.4:** Applied modern ORM features, handling automatic table generation (`hbm2ddl`) and complex SQL logging.
+* **Manual Management:** Hands-on experience with `EntityManagerFactory` and `EntityManager` to understand what happens "under the hood" before Spring abstraction.
 
-### Implemented Exercises & Projects:
-* **Functional Programming & Lambda:** Practice with streams, predicates, and functional interfaces.
-* **Object-Oriented Logic:** Implementation of complex business rules, inheritance, and polymorphism.
-* **The Lisarb Problem:** Complex business logic for calculating Income Tax.
+### 2. JDBC & DAO Pattern
+* Decoupled business logic from data access using the Data Access Object (DAO) pattern.
+* Managed manual connections and transactions with raw JDBC.
 
-🛠 **Tech Stack & Tools**
-* Java 24
-* Spring Tool Suite 4 (STS4)
-* MySQL / JDBC / Hibernate (JPA)
-* Maven
+### 3. Functional Programming & OOP
+* **Advanced OOP:** Inheritance, polymorphism, and complex business rules (e.g., *The Lisarb Income Tax Problem*).
+* **Modern Java:** Extensive use of Lambda expressions, Streams API, and Functional Interfaces.
 
-📈 **Learning Path**
-- [x] Basic Syntax and Logic
-- [x] Object-Oriented Programming
-- [x] Functional Programming & Lambda Expressions
-- [x] JDBC Fundamentals & Transactions
-- [x] Data Persistence (DAO Pattern)
-- [ ] **ORM with JPA & Hibernate (In Progress 🔄)**
-- [ ] Web Services with Spring Boot (Next Step)
+## 🛠 Tech Stack & Tools
+* **Java:** 24 (Latest Features)
+* **Frameworks:** Hibernate 6.4.4.Final / Jakarta Persistence 3.0
+* **IDE:** Spring Tool Suite 4 (STS4)
+* **Database:** MySQL 8.0
+* **Build Tool:** Maven
+
+## 📈 Learning Path
+* [x] Basic Syntax and Logic
+* [x] Object-Oriented Programming
+* [x] Functional Programming & Lambda Expressions
+* [x] JDBC Fundamentals & Transactions
+* [x] Data Persistence (DAO Pattern)
+* [x] **ORM with JPA & Hibernate (Completed ✅)**
+* [ ] **Web Services with Spring Boot (In Progress 🔄)**
+
+---
+*“Mastering the foundations to build scalable Spring applications.”*
