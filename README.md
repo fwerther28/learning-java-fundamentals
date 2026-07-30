@@ -28,6 +28,11 @@ This repository documents my comprehensive journey through the **"Complete Java 
 * **Database:** MySQL 8.0 / H2 (In-memory testing)
 * **Build Tool:** Maven
 
+### 🐳 DevOps & Refactoring Enhancements (Self-Driven)
+
+* **Containerization:** Docker & Docker Compose setup for local database instances (MySQL).
+* **Code Modernization:** Refactored boilerplate code using Lombok annotations where applicable.
+
 ## 📊 Why this Separation?
 As a developer with a background in **Cost Accounting (#DevContador)**, I apply the principle of **Separation of Concerns** not just in code, but in project organization. Keeping fundamentals separate from enterprise frameworks ensures a clean audit trail of my learning progress and prevents dependency "pollution" across repositories.
 
